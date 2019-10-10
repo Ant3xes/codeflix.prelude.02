@@ -1,3 +1,3 @@
-module.exports = function first(arr, n=1) {
-    return n == 1 ? arr[0] : arr.splice(0, n)
+module.exports = function first(array, n=1) {
+    return n == 1 ? array[0] : array.splice(0, n)
 }
