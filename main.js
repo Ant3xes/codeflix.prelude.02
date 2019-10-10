@@ -7,24 +7,21 @@ const keys = require('./ex12')
 const values = require('./ex13')
 const pairs = require('./ex14')
 const invert = require('./ex15')
+const pick = require('./ex16')
 
 console.log('First');
-console.log(first([76,51,'aie'], 2))
 console.log(first([76,51,'aie',]))
 console.log("end \n")
 
 console.log('Initial');
-console.log(initial([10,51,'aie'], 2))
 console.log(initial([76,51,'aie']))
 console.log("end \n")
 
 console.log('last');
-console.log(last([10,51,'aie'], 2))
 console.log(last([76,51,'aie']))
 console.log("end \n")
 
 console.log('rest');
-console.log(rest([10,51,'aie'], 2))
 console.log(rest([76,51,'aie']))
 console.log("end \n")
 
