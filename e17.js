@@ -1,4 +1,4 @@
-function pick(obj, ...options) {
+module.exports = function omit(obj, ...options) {
     const [firstOpts] = options
   
     const newObj = {}
@@ -24,21 +24,3 @@ function pick(obj, ...options) {
     return newObj
   }
   
-//   const user = {
-//     firstname: 'Majdi',
-//     lastname: 'Toumi',
-//     age: 18
-//   }
-  
-//   console.log(pick(user, 'firstname', 'age'))
-//   console.log(
-//     pick(user, function(value, key) {
-//       return Number.isInteger(value)
-//     })
-//   )
-  
-//   const arr = [1, 2, 3, 4, 5, 6]
-  
-//   arr.forEach(function (item) {
-//     console.log(item)
-//   }
